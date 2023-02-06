@@ -18,5 +18,11 @@ public class Main {
       System.out.println("dog = " + dog);
       System.out.println("cat = " + cat);
       System.out.println("paper = " + paper);
+      var friend = 19;
+      System.out.println("friend = " + friend);
+      friend = friend + 2;
+      System.out.println("friend = " + friend);
+      friend = friend / 7;
+      System.out.println("friend = " + friend);
     }
 }
