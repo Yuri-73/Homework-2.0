@@ -43,5 +43,13 @@ public class Main {
       System.out.println("weight4-1 = " + weight4);
       weight4 = weight2 - weight1;
       System.out.println("weight4-2 = " + weight4);
+
+      var taimMax = 640;
+      var taimCount = 8;
+      var CountMax = taimMax / taimCount;
+      System.out.println("Всего работников в компании работает " + CountMax + " человек");
+      CountMax = CountMax + 94;
+      taimCount = taimMax / CountMax;
+      System.out.println("Если в компании работает " + CountMax + " человека, то всего " + taimCount + " часа работы может быть поделено между сотрудниками" );
    }
 }
