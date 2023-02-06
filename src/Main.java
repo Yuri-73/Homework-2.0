@@ -24,5 +24,14 @@ public class Main {
       System.out.println("friend = " + friend);
       friend = friend / 7;
       System.out.println("friend = " + friend);
+      var flog = 3.5;
+      System.out.println("flog = " + flog);
+      flog = flog * 10;
+      System.out.println("flog = " + flog);
+      flog = flog / 3.5;
+      System.out.println("flog = " + flog);
+      flog = flog + 4;
+      System.out.println("flog = " + flog);
+
     }
 }
