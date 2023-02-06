@@ -40,6 +40,8 @@ public class Main {
       var weight3 = weight1 + weight2;
       System.out.println("weight3 = " + weight3);
       var weight4 = weight2 % weight1;
-      System.out.println("weight4 = " + weight4);
+      System.out.println("weight4-1 = " + weight4);
+      weight4 = weight2 - weight1;
+      System.out.println("weight4-2 = " + weight4);
    }
 }
